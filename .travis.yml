@@ -6,5 +6,5 @@ python:
 before_install:
     - pip install pytest pytest-cov
 script:
-    - py.test
+    - pytest -q manage.py
 
